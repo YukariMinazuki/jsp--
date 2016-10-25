@@ -1,5 +1,7 @@
 .settings
-*.class*
+*
+.class*
+
 .project
 /build/
 .idea
