@@ -1,7 +1,4 @@
 .settings
-*
 .class*
-
 .project
-/build/
 .idea
