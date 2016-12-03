@@ -21,7 +21,7 @@
 		Connection conn = java.sql.DriverManager.getConnection(connectSQL, "yukari", "");
 
 		Statement st = conn.createStatement();
-		String id = request.getParameter();
+		String id = request.getParameter("id");
 		String sql = "select * from student where id = " + id;
 		ResultSet rs = st.executeQuery(sql);
 		

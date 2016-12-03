@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-<jsp:useBean id="username" class="jsp.UserInfoBean"  scope="session"/>
+<jsp:useBean id="username" class="com.book.UserInfoBean"  scope="session"/>
 <jsp:setProperty name="username" property="*" />
 
 <title>在线购书系统-处理登录的页面</title>

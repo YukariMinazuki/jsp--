@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<jsp:useBean id="book"  scope="session" class="jsp.BookShopBean"></jsp:useBean>
+<jsp:useBean id="book"  scope="session" class="com.book.BookShopBean"></jsp:useBean>
 <jsp:setProperty name="book" property="*" />
 <%
      book.processRequest(request);

@@ -1,4 +1,4 @@
-package jsp;
+package com.book;
 
 public class UserInfoBean {
 	private String userName;
