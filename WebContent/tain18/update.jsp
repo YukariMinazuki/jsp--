@@ -19,18 +19,21 @@ String avatar = "";
 String image = "";
 String desc = "";
 String title = "添加英雄";
+%>
 
-if(hero != null){
-	id = hero.getId();
+<c:if test="${hero != null}">
+     <%
+     id = hero.getId();
 	name = hero.getName();
 	nick_name = hero.getNickName();
 	avatar = hero.getAvatar();
 	image = hero.getImage();
 	desc = hero.getDesc();
 	title = "修改英雄";
-}
+	 %>
+</c:if>
 
-%>
+
 <h1 class="center">
 <%=title %>
 </h1>
